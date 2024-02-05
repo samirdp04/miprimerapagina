@@ -201,8 +201,6 @@ nav ul.menu li a {
     padding: 7px 7px;
 }
 
-  /* MENU */
-
 .checkbtn {
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -213,11 +211,9 @@ nav ul.menu li a {
     display: none;
 }
 
-  /* MEDIA QUERIES */
-
-  /* Estilos para pantallas más pequeñas (hasta 768px) */
+  
 @media (max-width: 768px) {
-    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    
     header {
     background-color: rgb(87, 87, 87);
     }
@@ -250,7 +246,7 @@ nav ul.menu li a {
     .navbar ul.menu li a:hover {
     color: #b59a61;
     }
-    /* ACTIVE */
+    
     .navbar.active {
     height: 100vh;
     }
@@ -563,7 +559,7 @@ footer .social-link:nth-of-type(2){
     background-image: url(TwitterBlanco.png);
 }
 
-footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
+footer .social-link:nth-of-type(3){
     background-image: url(LinkedinBlanco.png);
 }
 
