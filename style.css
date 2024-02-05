@@ -23,111 +23,6 @@ body{
     padding: 0 1em;
 }
 
-
-/*nav{
-    position: fixed;
-    z-index: 30;
-    left: 0;
-    right: 0;
-    top: 0;
-    background: #3a626e;
-    height: 80px;   
-    width: 100%;
-}
-
-nav .enlace{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-}
-
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-nav ul li a{
-    color: #fff;
-    font-size: 18px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-
-li a.active, li a:hover{
-    background: #0000;
-    transition: .5s;
-}
-
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check{
-    display: none;
-}
-
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-}
-
-@media (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2A2A2A;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px
-    }
-    li a:hover, li a.active{
-        background: none;
-        color: #666;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    .form .tag span {
-        display: block;
-        text-align: center;
-    }
-}*/
-
 .fuente-clara {
     color: #eeeeee;
 }
@@ -157,8 +52,6 @@ nav ul li a {
 .navbar.active ul.menu{
     opacity: 1;
 }
-
-  /* ENCABEZADO */
 
 header {
     background-color: #3a626e;
@@ -419,8 +312,6 @@ input::-webkit-input-placeholder {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    display: flex;
-    align-items: center;
 }
 
 button:hover {
@@ -452,7 +343,7 @@ button:hover:after {
     margin: auto;
     color: #B06AB3;
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .footer {
@@ -464,7 +355,6 @@ footer{
     left: 0;
     height: fit-content;
     width: 100%;
-    /*display: flex;*/
     justify-content: center;
     align-items: center;
     flex-direction: column;
