@@ -452,6 +452,7 @@ button:hover:after {
     margin: auto;
     color: #B06AB3;
     padding-top: 20px;
+    font-size: 30px;
 }
 
 .footer {
