@@ -10,17 +10,6 @@ const email = document.getElementById("email");
 const form = document.getElementById("form");
 const parrafo = document.getElementById("warnings");
 
-//function validarFormulario( ) {
-    //let warnings = ""
-    //let entrar = false
-    //let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
-
-    //if (nombre.value.length < 3) {
-        //warnings += `El nombre debe contener más de 3 caracteres`;
-        //valido = false;
-    //}
-//}
-
 form.addEventListener("submit", e=>{
     e.preventDefault()
     let warnings = ""
