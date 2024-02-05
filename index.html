@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="sexo.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <header id="encabezado">
+            <h1 class="logo">
+                <a href="index.html" class="fuente-acento">web Dev Samir</a>
+            </h1>
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">
+                <ul class="menu">
+                <li><a class="navli" href="index.html">Inicio</a></li>
+                <li><a class="navli" href="#seccion-principal">Acerca de mí</a></li>
+                <li><a class="navli" href="#trabajos">Trabajos</a></li>
+                <li><a class="navli" href="#trabajos">Servicios</a></li>
+                <li><a class="navli" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--<header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <a href="#" class="enlace">web Dev Samir</a>
+                <ul>
+                    <li><a href="#about">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>-->
+        <main id="seccion-principal">
+            <div class="acerca-de-mi" id="about">
+                <img src="floppa.jpg" alt="Foto de Samir" />
+                <p>¡Bienvenido a mi página! Aquí aprenderás más sobre mí. Me llamo Samir del Portillo, tengo 20 años, nací en Barranquilla/Colombia y actualmente vivo en Soledad.
+                    Me gustan los gatos y los videojuegos. Actualmente me encuentro fortaleciendo y aprendiendo sobre programación en el SENA. </p>
+            </div>
+            <div class="seccion-2">
+                <img class="imagen-fondo" src="fondo pantalla.avif" alt="">
+            </div>
+                
+            <div class="titulo">
+                <h3>Trabajos</h3>
+            </div>
+            <div class="card-container" id="trabajos">
+                <div class="card">
+                    <img src="lago-montanas.avif" alt="">
+                    <div class="card-content">
+                        <h3>Titulo 1</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut rem impedit cumque. 
+                        Quo itaque corporis numquam. Quia voluptatibus maxime quos unde, ab at quae dicta 
+                        eveniet laboriosam dolor aspernatur quas?</p>
+                        <a href="" class="btn">Leer más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="mountains.jpg" alt="">
+                    <div class="card-content">
+                        <h3>Titulo 2</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut rem impedit cumque. 
+                        Quo itaque corporis numquam. Quia voluptatibus maxime quos unde, ab at quae dicta 
+                        eveniet laboriosam dolor aspernatur quas?</p>
+                        <a href="" class="btn">Leer más</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="paisaje-montana.avif" alt="">
+                    <div class="card-content">
+                        <h3>Titulo 3</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut rem impedit cumque. 
+                        Quo itaque corporis numquam. Quia voluptatibus maxime quos unde, ab at quae dicta 
+                        eveniet laboriosam dolor aspernatur quas?</p>
+                        <a href="" class="btn">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <section class="contact">
+                <div class="u-wrapper" id="contacto">
+                    <div class="contact-content">
+                        <form id="form" action="" class="form">
+                            <h3 class="tag"><span>Contacto</span></h3>
+                            <div class="form-row">
+                                <label for="name">Nombre Completo<span> * </span></label>
+                                <input type="name" type="text" id="name">
+                            </div> 
+                            <div class="form-row">  
+                                <label for="email">Correo Electronico<span> * </span></label>
+                                <input type="email" type="text" id="email">
+                            </div> 
+                            <div class="form-row">  
+                                <label for="message">Mensaje</label>
+                                <textarea name="message" id="message" cols="30" rows="10    "></textarea>
+                            </div> 
+                            <button type="submit" class="btn"> Enviar
+                            </button>
+                        </form>
+                        <a href="mailto:me@samirdelportillo01.com" id="gmail">mail</a>
+                        <p class="warnings" id="warnings"></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content-container">
+                    <h3 class="website-logo">Samir del Portillo</h3>
+                    <span class="footer-info">333 444 555</span>
+                    <span class="footer-info">samirdelportillo01@gmail.com</span>
+                </div>
+                <div class="footer-menus">
+                    <div class="footer-content-container">
+                        <span class="menu-title">menu</span>
+                        <a href="" class="menu-item-footer">Home</a>
+                        <a href="" class="menu-item-footer">Courses</a>
+                        <a href="" class="menu-item-footer">Testimonials</a>
+                    </div>
+                    <div class="footer-content-container">
+                        <span class="menu-title">legal</span>
+                        <a href="" class="menu-item-footer">Privacy Policy</a>
+                        <a href="" class="menu-item-footer">Cookies</a>
+                        <a href="" class="menu-item-footer">Legal Advice</a>
+                    </div>
+                </div>
+                
+                <div class="footer-content-container">
+                    <span class="menu-title">follow us</span>
+                    <div class="social-container">
+                        <a href="" class="social-link"></a>
+                        <a href="" class="social-link"></a>
+                        <a href="" class="social-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-container">
+                <span class="copyright">Copyright 2024, Samir del Portillo. All rights reserved.</span>
+            </div>
+        </footer>
+
+        <!--<script>
+            const $form = document.querySelector('#form')
+            const $buttonMailto = document.querySelector('#gmail')
+
+            $form.addEventListener('submit', handleSubmit )
+
+            function handleSubmit(event) {
+                event.preventDefault()
+                const form = new FormData(this)
+                console.log(form.get('name'))
+                $buttonMailto.setAttribute('href', `mailto:me@samirdelportillo01.com?subject=nombre ${form.get('name')}  correo ${form.get('email')}&body=${form.get('message')}`)
+                $buttonMailto.click()
+            }
+        </script>-->
+</body>
+</html>
